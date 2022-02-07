@@ -1,0 +1,25 @@
+.chatsList {
+  height: 87%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  transition: all 3s ease-in-out;
+}
+
+.chatsList::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.chatsList:hover::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+.chatsList::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 0.3rem;
+}
+
+.chatsList:active::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+}

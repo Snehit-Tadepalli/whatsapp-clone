@@ -1,0 +1,19 @@
+.rightPanel {
+  height: 100%;
+  width: 70%;
+}
+
+.userProfile {
+  height: 7%;
+  background-color: green;
+}
+
+.userChat {
+  height: 85%;
+  background-color: aqua;
+}
+
+.chatOptions {
+  height: 8%;
+  background-color: yellow;
+}

@@ -1,0 +1,22 @@
+.selfProfile {
+  height: 7%;
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.profilePic {
+  /* background-color: red; */
+  padding: 2rem;
+  border-radius: 100%;
+  box-shadow: 0 0 0.1rem black;
+}
+
+.statusOptionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
