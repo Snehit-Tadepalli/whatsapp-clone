@@ -1,4 +1,4 @@
-import styles from "../../styles/RightPanel.module.css";
+import styles from "../../styles/right-panel/RightPanel.module.css";
 
 const RightPanel = () => {
   return (

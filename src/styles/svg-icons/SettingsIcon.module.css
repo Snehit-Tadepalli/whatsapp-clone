@@ -1,0 +1,9 @@
+.settingsIcon {
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.5);
+  transition: all 0.25s ease-in-out;
+}
+
+.settingsIcon:hover {
+  color: rgba(0, 0, 0, 1);
+}

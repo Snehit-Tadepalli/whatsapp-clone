@@ -1,13 +1,18 @@
-import styles from "../../styles/SearchBar.module.css";
+import styles from "../../styles/left-panel/SearchBar.module.css";
+import SearchIcon from "../../svg-icons/SearchIcon";
 
 const SearchBar = () => {
   return (
     <div className={styles.searchbar}>
-      <input
-        className={styles.search}
-        type="text"
-        placeholder="Search or start a new chat"
-      ></input>
+      <div className={styles.searchItemsContainer}>
+        <SearchIcon />
+        <input
+          title="Search"
+          className={styles.search}
+          type="text"
+          placeholder="Search or start a new chat"
+        ></input>
+      </div>
     </div>
   );
 };

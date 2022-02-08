@@ -1,4 +1,4 @@
-import styles from "../../styles/SelfProfile.module.css";
+import styles from "../../styles/left-panel/SelfProfile.module.css";
 import NewChatIcon from "../../svg-icons/NewChatIcon";
 import StatusIcon from "../../svg-icons/StatusIcon";
 import SettingsIcon from "../../svg-icons/SettingsIcon";
@@ -9,9 +9,9 @@ const SelfProfile = () => {
       <div className={styles.profilePic}>Pic</div>
 
       <div className={styles.statusOptionsContainer}>
-        <StatusIcon />
-        <NewChatIcon />
-        <SettingsIcon />
+        <StatusIcon className={styles.statusIcon} />
+        <NewChatIcon className={styles.newChatIcon} />
+        <SettingsIcon className={styles.settingsIcon} />
       </div>
     </div>
   );

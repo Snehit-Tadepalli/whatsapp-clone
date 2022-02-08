@@ -1,0 +1,23 @@
+.chatItemHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.chatItemHolder.active {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.chatItemHolder.active:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.chatItemHolder:hover {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+.ruler {
+  width: 80%;
+  border-color: rgba(0, 0, 0, 0.1);
+}

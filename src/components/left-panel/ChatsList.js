@@ -1,11 +1,24 @@
-import styles from "../../styles/ChatsList.module.css";
-import ChatItem from "./ChatItem";
+import styles from "../../styles/left-panel/ChatsList.module.css";
+import ChatItemHolder from "./ChatItemHolder";
 
 const ChatsList = () => {
   return (
     <div className={styles.chatsList}>
-      <ChatItem />
-      <ChatItem />
+      <ChatItemHolder status={true} />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
+      <ChatItemHolder />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import styles from "../../styles/LeftPanel.module.css";
+import styles from "../../styles/left-panel/LeftPanel.module.css";
 import SelfProfile from "./SelfProfile";
 import SearchBar from "./SearchBar";
 import ChatsList from "./ChatsList";

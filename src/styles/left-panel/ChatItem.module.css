@@ -1,0 +1,66 @@
+.chatItem {
+  height: 7.5rem;
+  margin: 0 2rem;
+  padding: 1rem 2rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.chatPicAndNameHolder {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.chatPic {
+  height: 90%;
+  padding: 2rem;
+  border-radius: 100%;
+  box-shadow: 0 0 0.1rem black;
+}
+
+.chatNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chatName {
+  font-size: 175%;
+  font-weight: bold;
+}
+
+.lastChatMessage {
+  font-size: 150%;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chatDetailsContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lastChatTime {
+  font-size: 125%;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chatUnreadCount {
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 125%;
+  font-weight: bold;
+  color: rgba(255, 255, 255);
+  border-radius: 100%;
+  background-color: #25d366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
